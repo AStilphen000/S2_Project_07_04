@@ -30,7 +30,7 @@ Navigation Links #2
 
 Classes
 -------
-Intro Surfing
+Intro Surfing 
 Surfing I
 Surfing II
 Surfing III
@@ -51,7 +51,7 @@ Gear
 Quiver
 Clothing
 Shopping Cart
-My Account
+My Account 
 Tracking
 =======================
 

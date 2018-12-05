@@ -34,6 +34,10 @@ body {
     background: white;
 
 }
+nav {
+    margin-left: 24px;
+    width: 100%; 
+}
 
 nav.horizontal {
     /* display: block;
@@ -41,7 +45,7 @@ nav.horizontal {
     width: 100%; */
 
     display: table;
-    width: 100%;
+    width: 90%;
 }
 
 nav.horizontal > ul {
@@ -68,6 +72,37 @@ header>img{
     margin-left: auto;
     margin-right: auto;
 }
+
+img.pic2 {
+    display: block;
+    position: relative;
+    width: 95%;   
+    box-shadow: 3px 3px 3px 3px; 
+}
+
+.p {
+    display: block;
+    text-align: center;
+}
+
+.p2 {
+    display: block;
+    text-align: center;
+}
+
+.p3 {
+    display: block;
+    text-align: center;
+}
+
+.p4 {
+    display: block;
+    text-align: center;
+}
+
+
+
+
 
 
 
