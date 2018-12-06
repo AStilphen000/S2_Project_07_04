@@ -78,30 +78,73 @@ img.pic2 {
     position: relative;
     width: 95%;   
     box-shadow: 3px 3px 3px 3px; 
+    margin-left:2.5%;
 }
 
-.p {
+ #left { 
     display: block;
-    text-align: center;
+    text-align: center; 
+    border: 4px double rgb(57, 117, 117);
+    border-radius: 30px;
+    box-shadow: rgba(27, 66, 99, 0.4) 0px 0px 20px 10px; 
+    padding: 20px;
+    background: radial-gradient(white, rgb(151, 217, 222), rgb(57, 117, 117));
 }
 
-.p2 {
+#right {
     display: block;
-    text-align: center;
+    text-align: center; 
+    border: 4px double rgb(57, 117, 117);
+    border-radius: 30px;
+    box-shadow: rgba(27, 66, 99, 0.4) 0px 0px 20px 10px; 
+    padding: 20px;
+    background: radial-gradient(white, rgb(151, 217, 222), rgb(57, 117, 117));
+} 
+
+#left { 
+    border: 2px solid lightblue; 
+    border-radius: 30px;
+    float: left;
+    width: 400px; 
+    padding: 20px;
+    height: 275px;
+    float: left;
+    margin-left: 2.5%;
 }
 
-.p3 {
+#right {
+    border: 2px solid lightblue; 
+    border-radius: 30px;
+    float: left; 
+    width: 400px; 
+    padding: 20px;
+    height: 275px;
+    float: right;
+    margin-right: 2.5%;
+}
+
+body:after{
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+/* Pulldown Menu Styles */
+/* ul.submenu {
+    display: none;
+}
+
+a .submenuTitle:hover+ul.submenu, ul.submenu:hover {
     display: block;
-    text-align: center;
+}  */ 
+
+#slangTitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.p4 {
-    display: block;
-    text-align: center;
+#slang {
+   
 }
-
-
-
 
 
 
